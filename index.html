@@ -1237,8 +1237,8 @@
                     <div class="balance-header">
                         <div>
                             <h2 class="balance-title">Total Balance</h2>
-                            <div class="balance-amount" id="totalBalance">$219,600</div>
-                            <div class="balance-subtitle">219,600 USDT • 12.5 BTC • 85.3 ETH</div>
+                            <div class="balance-amount" id="totalBalance">$218,800</div>
+                            <div class="balance-subtitle">218,800 USDT • 12.5 BTC • 85.3 ETH</div>
                         </div>
                         <div>
                             <i class="fas fa-eye" id="toggleBalance" style="font-size: 20px; color: var(--text-secondary); cursor: pointer;"></i>
@@ -1278,8 +1278,8 @@
                         </div>
                         <div style="margin-top: 20px;">
                             <div style="font-size: 14px; color: var(--text-secondary);">Available Balance</div>
-                            <div style="font-size: 22px; font-weight: 700; margin-top: 5px;">219,600 USDT</div>
-                            <div style="font-size: 14px; color: var(--text-secondary); margin-top: 5px;">≈ $219,600</div>
+                            <div style="font-size: 22px; font-weight: 700; margin-top: 5px;">218,800 USDT</div>
+                            <div style="font-size: 14px; color: var(--text-secondary); margin-top: 5px;">≈ $218,800</div>
                         </div>
                     </div>
 
@@ -1367,7 +1367,183 @@
                             </tr>
                         </thead>
                         <tbody>
+                            <!-- New ETH Transactions -->
+                            <tr>
+                                <td>
+                                    <div class="transaction-type">
+                                        <div class="type-icon type-deposit">
+                                            <i class="fas fa-arrow-down"></i>
+                                        </div>
+                                        <div>
+                                            <div>ETH Deposit</div>
+                                            <div class="transaction-details">Ethereum Transfer</div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div style="font-weight: 700; color: var(--accent-green);">+1,000 USDT</div>
+                                    <div class="transaction-details">ETH Value</div>
+                                </td>
+                                <td>
+                                    <div class="transaction-details">
+                                        <div>Ethereum (ERC-20)</div>
+                                        <div style="font-family: monospace; font-size: 12px;">0x89d24A6b4CcB1B6fAA2625fE562bD2D9A73e7b5c</div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>Today</div>
+                                    <div class="transaction-details">00:30 UTC</div>
+                                </td>
+                                <td><span class="transaction-status status-confirmed">Confirmed</span></td>
+                            </tr>
+                            
+                            <tr>
+                                <td>
+                                    <div class="transaction-type">
+                                        <div class="type-icon type-withdraw">
+                                            <i class="fas fa-arrow-up"></i>
+                                        </div>
+                                        <div>
+                                            <div>ETH Withdrawal</div>
+                                            <div class="transaction-details">Ethereum Transfer</div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div style="font-weight: 700;">-500 USDT</div>
+                                    <div class="transaction-details">ETH Value</div>
+                                </td>
+                                <td>
+                                    <div class="transaction-details">
+                                        <div>Ethereum (ERC-20)</div>
+                                        <div style="font-family: monospace; font-size: 12px;">0x89d24A6b4CcB1B6fAA2625fE562bD2D9A73e7b5c</div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>Today</div>
+                                    <div class="transaction-details">01:00 UTC</div>
+                                </td>
+                                <td><span class="transaction-status status-confirmed">Confirmed</span></td>
+                            </tr>
+                            
                             <!-- Processing Transactions -->
+                            <tr>
+                                <td>
+                                    <div class="transaction-type">
+                                        <div class="type-icon type-withdraw">
+                                            <i class="fas fa-arrow-up"></i>
+                                        </div>
+                                        <div>
+                                            <div>Withdrawal</div>
+                                            <div class="transaction-details">USDT Transfer</div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div style="font-weight: 700;">-10,000 USDT</div>
+                                    <div class="transaction-details">Fee: <span class="fee-badge">$344</span></div>
+                                </td>
+                                <td>
+                                    <div class="transaction-details">
+                                        <div>Ethereum (ERC-20)</div>
+                                        <div style="font-family: monospace; font-size: 12px;">0xafac3b352b957052ee650c9b387deb0ec580c1f6</div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>14:45 UTC</div>
+                                    <div class="transaction-details">Today</div>
+                                </td>
+                                <td><span class="transaction-status status-processing">Processing</span></td>
+                            </tr>
+                            
+                            <tr>
+                                <td>
+                                    <div class="transaction-type">
+                                        <div class="type-icon type-withdraw">
+                                            <i class="fas fa-arrow-up"></i>
+                                        </div>
+                                        <div>
+                                            <div>Withdrawal</div>
+                                            <div class="transaction-details">USDT Transfer</div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div style="font-weight: 700;">-10,000 USDT</div>
+                                    <div class="transaction-details">Fee: <span class="fee-badge">$327</span></div>
+                                </td>
+                                <td>
+                                    <div class="transaction-details">
+                                        <div>Ethereum (ERC-20)</div>
+                                        <div style="font-family: monospace; font-size: 12px;">0xafac3b352b957052ee650c9b387deb0ec580c1f6</div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>15:15 UTC</div>
+                                    <div class="transaction-details">Today</div>
+                                </td>
+                                <td><span class="transaction-status status-processing">Processing</span></td>
+                            </tr>
+                            
+                            <tr>
+                                <td>
+                                    <div class="transaction-type">
+                                        <div class="type-icon type-withdraw">
+                                            <i class="fas fa-arrow-up"></i>
+                                        </div>
+                                        <div>
+                                            <div>Withdrawal</div>
+                                            <div class="transaction-details">USDT Transfer</div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div style="font-weight: 700;">-10,000 USDT</div>
+                                    <div class="transaction-details">Fee: <span class="fee-badge">$338</span></div>
+                                </td>
+                                <td>
+                                    <div class="transaction-details">
+                                        <div>Ethereum (ERC-20)</div>
+                                        <div style="font-family: monospace; font-size: 12px;">0xafac3b352b957052ee650c9b387deb0ec580c1f6</div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>15:45 UTC</div>
+                                    <div class="transaction-details">Today</div>
+                                </td>
+                                <td><span class="transaction-status status-processing">Processing</span></td>
+                            </tr>
+                            
+                            <tr>
+                                <td>
+                                    <div class="transaction-type">
+                                        <div class="type-icon type-withdraw">
+                                            <i class="fas fa-arrow-up"></i>
+                                        </div>
+                                        <div>
+                                            <div>Withdrawal</div>
+                                            <div class="transaction-details">USDT Transfer</div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div style="font-weight: 700;">-10,000 USDT</div>
+                                    <div class="transaction-details">Fee: <span class="fee-badge">$341</span></div>
+                                </td>
+                                <td>
+                                    <div class="transaction-details">
+                                        <div>Ethereum (ERC-20)</div>
+                                        <div style="font-family: monospace; font-size: 12px;">0xafac3b352b957052ee650c9b387deb0ec580c1f6</div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>16:15 UTC</div>
+                                    <div class="transaction-details">Today</div>
+                                </td>
+                                <td><span class="transaction-status status-processing">Processing</span></td>
+                            </tr>
+                            
+                            <!-- Original Transactions (Kept as is) -->
                             <tr>
                                 <td>
                                     <div class="transaction-type">
@@ -1391,10 +1567,10 @@
                                     </div>
                                 </td>
                                 <td>
-                                    <div>14:45 UTC</div>
-                                    <div class="transaction-details">Today</div>
+                                    <div>22 hours ago</div>
+                                    <div class="transaction-details">Yesterday</div>
                                 </td>
-                                <td><span class="transaction-status status-processing">Processing</span></td>
+                                <td><span class="transaction-status status-confirmed">Confirmed</span></td>
                             </tr>
                             
                             <tr>
@@ -1420,10 +1596,10 @@
                                     </div>
                                 </td>
                                 <td>
-                                    <div>15:15 UTC</div>
-                                    <div class="transaction-details">Today</div>
+                                    <div>23 hours ago</div>
+                                    <div class="transaction-details">Yesterday</div>
                                 </td>
-                                <td><span class="transaction-status status-processing">Processing</span></td>
+                                <td><span class="transaction-status status-confirmed">Confirmed</span></td>
                             </tr>
                             
                             <tr>
@@ -1449,10 +1625,10 @@
                                     </div>
                                 </td>
                                 <td>
-                                    <div>15:45 UTC</div>
-                                    <div class="transaction-details">Today</div>
+                                    <div>25 hours ago</div>
+                                    <div class="transaction-details">Yesterday</div>
                                 </td>
-                                <td><span class="transaction-status status-processing">Processing</span></td>
+                                <td><span class="transaction-status status-confirmed">Confirmed</span></td>
                             </tr>
                             
                             <tr>
@@ -1478,13 +1654,12 @@
                                     </div>
                                 </td>
                                 <td>
-                                    <div>16:15 UTC</div>
-                                    <div class="transaction-details">Today</div>
+                                    <div>1 hour ago</div>
+                                    <div class="transaction-details">18:30 UTC</div>
                                 </td>
-                                <td><span class="transaction-status status-processing">Processing</span></td>
+                                <td><span class="transaction-status status-confirmed">Confirmed</span></td>
                             </tr>
                             
-                            <!-- Confirmed Deposit -->
                             <tr>
                                 <td>
                                     <div class="transaction-type">
@@ -1521,32 +1696,40 @@
                         <h4><i class="fas fa-exclamation-triangle"></i> Total Fees Summary</h4>
                         <div class="fee-details">
                             <div class="fee-item">
-                                <span>Transaction 1 (Ethereum):</span>
-                                <span style="color: var(--accent-red); font-weight: 600;">$350</span>
+                                <span>ETH Transactions (2):</span>
+                                <span style="color: var(--accent-red); font-weight: 600;">No fees</span>
                             </div>
                             <div class="fee-item">
-                                <span>Transaction 2 (Tron):</span>
-                                <span style="color: var(--accent-red); font-weight: 600;">$350</span>
+                                <span>Processing Transaction 1:</span>
+                                <span style="color: var(--accent-red); font-weight: 600;">$344</span>
                             </div>
                             <div class="fee-item">
-                                <span>Transaction 3 (BNB Chain):</span>
-                                <span style="color: var(--accent-red); font-weight: 600;">$350</span>
+                                <span>Processing Transaction 2:</span>
+                                <span style="color: var(--accent-red); font-weight: 600;">$327</span>
                             </div>
                             <div class="fee-item">
-                                <span>Transaction 4 (Ethereum):</span>
-                                <span style="color: var(--accent-red); font-weight: 600;">$350</span>
+                                <span>Processing Transaction 3:</span>
+                                <span style="color: var(--accent-red); font-weight: 600;">$338</span>
                             </div>
                             <div class="fee-item">
-                                <span>Total Withdrawn (4 transactions):</span>
+                                <span>Processing Transaction 4:</span>
+                                <span style="color: var(--accent-red); font-weight: 600;">$341</span>
+                            </div>
+                            <div class="fee-item">
+                                <span>Original Transactions (4):</span>
+                                <span style="color: var(--accent-red); font-weight: 600;">$1,400</span>
+                            </div>
+                            <div class="fee-item">
+                                <span>Total Processing Amount:</span>
                                 <span style="color: var(--accent-red); font-weight: 600;">-40,000 USDT</span>
                             </div>
                             <div class="fee-item">
-                                <span>Total Fees (4 transactions):</span>
-                                <span style="color: var(--accent-red); font-weight: 600;">-1,400 USDT</span>
+                                <span>Total Processing Fees:</span>
+                                <span style="color: var(--accent-red); font-weight: 600;">-1,350 USDT</span>
                             </div>
                             <div class="fee-item" style="grid-column: span 2;">
-                                <span>Total Deductions:</span>
-                                <span style="color: var(--accent-red); font-weight: 700; font-size: 16px;">-41,400 USDT</span>
+                                <span>Net Change from Processing:</span>
+                                <span style="color: var(--accent-red); font-weight: 700; font-size: 16px;">-41,350 USDT</span>
                             </div>
                         </div>
                     </div>
@@ -1672,7 +1855,7 @@
                     <div class="form-group">
                         <label class="form-label">Select Asset</label>
                         <select class="form-select" id="withdrawAsset">
-                            <option value="usdt">USDT (Tether) - Available: 219,600</option>
+                            <option value="usdt">USDT (Tether) - Available: 218,800</option>
                             <option value="btc">BTC (Bitcoin) - Available: 12.5</option>
                             <option value="eth">ETH (Ethereum) - Available: 85.3</option>
                         </select>
@@ -1694,7 +1877,7 @@
                             </select>
                         </div>
                         <div class="available-balance">
-                            <span>Available: <span id="availableBalance">219,600 USDT</span></span>
+                            <span>Available: <span id="availableBalance">218,800 USDT</span></span>
                             <button class="max-btn" id="maxBtn">Max</button>
                         </div>
                     </div>
@@ -1707,7 +1890,7 @@
                             <button class="network-tab" data-network="bnb">BNB Smart Chain</button>
                         </div>
                         <div class="fee-info">
-                            <div>Network fee: <span class="fee-badge">$350</span></div>
+                            <div>Network fee: <span class="fee-badge">$327</span></div>
                             <div>You will receive: <span id="receiveAmount">0 USDT</span></div>
                         </div>
                     </div>
@@ -1725,7 +1908,7 @@
                             <li>Double-check the destination address</li>
                             <li>Corporate accounts have a daily withdrawal limit of $100,000</li>
                             <li>Large withdrawals may require additional verification</li>
-                            <li>Network fee: $350 USDT per transaction</li>
+                            <li>Network fee: $327 USDT per transaction</li>
                         </ul>
                     </div>
                 </section>
@@ -1774,13 +1957,42 @@
                             </tr>
                         </thead>
                         <tbody>
+                            <!-- New ETH Transactions -->
+                            <tr>
+                                <td>Today, 00:30</td>
+                                <td><span class="transaction-status status-confirmed">ETH Deposit</span></td>
+                                <td>
+                                    <div style="font-weight: 700; color: var(--accent-green);">+1,000 USDT</div>
+                                    <div class="transaction-details">ETH Value</div>
+                                </td>
+                                <td><span class="transaction-status status-confirmed">Confirmed</span></td>
+                                <td>
+                                    <button class="btn btn-outline" style="padding: 6px 12px; font-size: 13px;">
+                                        <i class="fas fa-eye"></i> View
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Today, 01:00</td>
+                                <td><span class="transaction-status status-confirmed">ETH Withdrawal</span></td>
+                                <td>
+                                    <div style="font-weight: 700;">-500 USDT</div>
+                                    <div class="transaction-details">ETH Value</div>
+                                </td>
+                                <td><span class="transaction-status status-confirmed">Confirmed</span></td>
+                                <td>
+                                    <button class="btn btn-outline" style="padding: 6px 12px; font-size: 13px;">
+                                        <i class="fas fa-eye"></i> View
+                                    </button>
+                                </td>
+                            </tr>
                             <!-- Processing Transactions -->
                             <tr>
                                 <td>Today, 14:45</td>
                                 <td><span class="transaction-status status-processing">Withdrawal</span></td>
                                 <td>
                                     <div style="font-weight: 700;">-10,000 USDT</div>
-                                    <div class="transaction-details">Fee: $350</div>
+                                    <div class="transaction-details">Fee: $344</div>
                                 </td>
                                 <td><span class="transaction-status status-processing">Processing</span></td>
                                 <td>
@@ -1794,7 +2006,7 @@
                                 <td><span class="transaction-status status-processing">Withdrawal</span></td>
                                 <td>
                                     <div style="font-weight: 700;">-10,000 USDT</div>
-                                    <div class="transaction-details">Fee: $350</div>
+                                    <div class="transaction-details">Fee: $327</div>
                                 </td>
                                 <td><span class="transaction-status status-processing">Processing</span></td>
                                 <td>
@@ -1808,7 +2020,7 @@
                                 <td><span class="transaction-status status-processing">Withdrawal</span></td>
                                 <td>
                                     <div style="font-weight: 700;">-10,000 USDT</div>
-                                    <div class="transaction-details">Fee: $350</div>
+                                    <div class="transaction-details">Fee: $338</div>
                                 </td>
                                 <td><span class="transaction-status status-processing">Processing</span></td>
                                 <td>
@@ -1822,9 +2034,66 @@
                                 <td><span class="transaction-status status-processing">Withdrawal</span></td>
                                 <td>
                                     <div style="font-weight: 700;">-10,000 USDT</div>
-                                    <div class="transaction-details">Fee: $350</div>
+                                    <div class="transaction-details">Fee: $341</div>
                                 </td>
                                 <td><span class="transaction-status status-processing">Processing</span></td>
+                                <td>
+                                    <button class="btn btn-outline" style="padding: 6px 12px; font-size: 13px;">
+                                        <i class="fas fa-eye"></i> View
+                                    </button>
+                                </td>
+                            </tr>
+                            <!-- Original Transactions -->
+                            <tr>
+                                <td>Today, 18:30</td>
+                                <td><span class="transaction-status status-confirmed">Withdrawal</span></td>
+                                <td>
+                                    <div style="font-weight: 700;">-10,000 USDT</div>
+                                    <div class="transaction-details">Fee: $350</div>
+                                </td>
+                                <td><span class="transaction-status status-confirmed">Confirmed</span></td>
+                                <td>
+                                    <button class="btn btn-outline" style="padding: 6px 12px; font-size: 13px;">
+                                        <i class="fas fa-eye"></i> View
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Today, 17:42</td>
+                                <td><span class="transaction-status status-confirmed">Withdrawal</span></td>
+                                <td>
+                                    <div style="font-weight: 700;">-10,000 USDT</div>
+                                    <div class="transaction-details">Fee: $350</div>
+                                </td>
+                                <td><span class="transaction-status status-confirmed">Confirmed</span></td>
+                                <td>
+                                    <button class="btn btn-outline" style="padding: 6px 12px; font-size: 13px;">
+                                        <i class="fas fa-eye"></i> View
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Today, 16:15</td>
+                                <td><span class="transaction-status status-confirmed">Withdrawal</span></td>
+                                <td>
+                                    <div style="font-weight: 700;">-10,000 USDT</div>
+                                    <div class="transaction-details">Fee: $350</div>
+                                </td>
+                                <td><span class="transaction-status status-confirmed">Confirmed</span></td>
+                                <td>
+                                    <button class="btn btn-outline" style="padding: 6px 12px; font-size: 13px;">
+                                        <i class="fas fa-eye"></i> View
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Today, 14:30</td>
+                                <td><span class="transaction-status status-confirmed">Withdrawal</span></td>
+                                <td>
+                                    <div style="font-weight: 700;">-10,000 USDT</div>
+                                    <div class="transaction-details">Fee: $350</div>
+                                </td>
+                                <td><span class="transaction-status status-confirmed">Confirmed</span></td>
                                 <td>
                                     <button class="btn btn-outline" style="padding: 6px 12px; font-size: 13px;">
                                         <i class="fas fa-eye"></i> View
@@ -1853,20 +2122,32 @@
                         <h4><i class="fas fa-calculator"></i> Transaction Summary</h4>
                         <div class="fee-details">
                             <div class="fee-item">
-                                <span>Total Withdrawals (4 transactions):</span>
+                                <span>Total ETH Transactions:</span>
+                                <span style="color: var(--accent-green); font-weight: 600;">+500 USDT</span>
+                            </div>
+                            <div class="fee-item">
+                                <span>Total Processing Withdrawals:</span>
                                 <span style="color: var(--accent-red); font-weight: 600;">-40,000 USDT</span>
                             </div>
                             <div class="fee-item">
-                                <span>Total Fees (4 × $350):</span>
+                                <span>Total Processing Fees:</span>
+                                <span style="color: var(--accent-red); font-weight: 600;">-1,350 USDT</span>
+                            </div>
+                            <div class="fee-item">
+                                <span>Total Original Withdrawals:</span>
+                                <span style="color: var(--accent-red); font-weight: 600;">-40,000 USDT</span>
+                            </div>
+                            <div class="fee-item">
+                                <span>Total Original Fees:</span>
                                 <span style="color: var(--accent-red); font-weight: 600;">-1,400 USDT</span>
                             </div>
                             <div class="fee-item">
-                                <span>Total Deposit:</span>
+                                <span>Total Original Deposit:</span>
                                 <span style="color: var(--accent-green); font-weight: 600;">+25,000 USDT</span>
                             </div>
                             <div class="fee-item" style="grid-column: span 2;">
                                 <span>Net Change:</span>
-                                <span style="color: var(--accent-red); font-weight: 700; font-size: 16px;">-16,400 USDT</span>
+                                <span style="color: var(--accent-red); font-weight: 700; font-size: 16px;">-57,250 USDT</span>
                             </div>
                         </div>
                     </div>
@@ -1938,11 +2219,11 @@
                                 <i class="fas fa-arrow-down"></i>
                             </div>
                             <div class="activity-details">
-                                <h4>Deposit Received</h4>
-                                <p>25,000 USDT • Yesterday</p>
+                                <h4>ETH Deposit Received</h4>
+                                <p>1,000 USDT • Today 00:30 UTC</p>
                             </div>
                         </div>
-                        <div class="activity-amount positive-change">+25,000</div>
+                        <div class="activity-amount positive-change">+1,000</div>
                     </div>
                 </div>
             </div>
@@ -1952,19 +2233,19 @@
                 <h3 class="section-title">Fee Summary</h3>
                 <div style="margin-top: 15px;">
                     <div style="display: flex; justify-content: space-between; margin-bottom: 12px;">
-                        <span style="color: var(--text-secondary);">Transactions Today:</span>
+                        <span style="color: var(--text-secondary);">Processing Transactions:</span>
                         <span style="font-weight: 600;">4 withdrawals</span>
                     </div>
                     <div style="display: flex; justify-content: space-between; margin-bottom: 12px;">
-                        <span style="color: var(--text-secondary);">Fee per Transaction:</span>
-                        <span class="fee-badge" style="margin: 0;">$350</span>
+                        <span style="color: var(--text-secondary);">Average Fee:</span>
+                        <span class="fee-badge" style="margin: 0;">$337</span>
                     </div>
                     <div style="display: flex; justify-content: space-between; margin-bottom: 12px;">
-                        <span style="color: var(--text-secondary);">Total Fees Today:</span>
-                        <span style="font-weight: 600; color: var(--accent-red);">$1,400</span>
+                        <span style="color: var(--text-secondary);">Total Processing Fees:</span>
+                        <span style="font-weight: 600; color: var(--accent-red);">$1,350</span>
                     </div>
                     <div style="display: flex; justify-content: space-between; margin-bottom: 12px;">
-                        <span style="color: var(--text-secondary);">Total Withdrawn:</span>
+                        <span style="color: var(--text-secondary);">Total Processing Amount:</span>
                         <span style="font-weight: 600; color: var(--accent-red);">40,000 USDT</span>
                     </div>
                 </div>
@@ -2054,7 +2335,7 @@
         // Initialize variables
         let currentPage = 'overview';
         let balanceVisible = true;
-        let usdtBalance = 219600; // Updated balance after deducting 41,400 USDT
+        let usdtBalance = 218800; // Updated balance after all deductions
         let btcBalance = 12.5;
         let ethBalance = 85.3;
 
@@ -2283,12 +2564,12 @@
                         return;
                     }
                     
-                    // Simulate withdrawal with $350 fee
-                    const fee = 350;
+                    // Simulate withdrawal with random fee between 320-350
+                    const fee = Math.floor(Math.random() * 30) + 320;
                     usdtBalance -= (amount + fee);
                     updateAllBalances();
                     
-                    alert(`Withdrawal request submitted for ${amount.toLocaleString()} USDT. Network fee: $350. Total deduction: ${(amount + fee).toLocaleString()} USDT. Processing will take approximately 30 minutes.`);
+                    alert(`Withdrawal request submitted for ${amount.toLocaleString()} USDT. Network fee: $${fee}. Total deduction: ${(amount + fee).toLocaleString()} USDT. Processing will take approximately 30 minutes.`);
                     withdrawAmount.value = '';
                     updateReceiveAmount();
                 });
@@ -2296,7 +2577,7 @@
 
             function updateReceiveAmount() {
                 const amount = parseFloat(withdrawAmount.value) || 0;
-                const fee = 350; // Fixed $350 fee
+                const fee = 327; // Fixed fee for display
                 const receive = Math.max(0, amount - fee);
                 receiveAmount.textContent = `${receive.toLocaleString()} USDT`;
             }
@@ -2327,9 +2608,8 @@
 
         // Update fee summary
         function updateFeeSummary() {
-            const totalFees = 1400; // 4 transactions × $350
+            const totalFees = 1350; // Sum of 344 + 327 + 338 + 341
             const totalWithdrawn = 40000; // 4 × $10,000
-            const netChange = -16400; // Total withdrawn + fees - deposit
             
             // Update fee summary in right sidebar
             const feeElements = document.querySelectorAll('.fee-summary .fee-item span:last-child');
@@ -2393,10 +2673,11 @@
                     withdrawNetworkTabs.forEach(t => t.classList.remove('active'));
                     this.classList.add('active');
                     
-                    // All networks have $350 fee
+                    // Random fee between 320-350
+                    const randomFee = Math.floor(Math.random() * 30) + 320;
                     const feeElement = document.querySelector('#page-withdraw .fee-badge');
                     if (feeElement) {
-                        feeElement.textContent = '$350';
+                        feeElement.textContent = `$${randomFee}`;
                         
                         // Trigger receive amount update
                         const withdrawAmount = document.getElementById('withdrawAmount');
